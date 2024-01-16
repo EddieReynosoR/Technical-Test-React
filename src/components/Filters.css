@@ -1,0 +1,20 @@
+.filters { 
+    display: flex;
+    max-width: 55%;
+    justify-content: space-around;
+
+}
+
+.filters .pages{
+    display: flex;
+    justify-content: space-around;
+}
+
+.filters .filtro{
+    display: grid;
+    justify-content: flex-start;
+}
+
+.filters .pages p{
+    margin-right: 15px;
+}

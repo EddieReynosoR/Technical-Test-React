@@ -1,0 +1,71 @@
+section.booksList-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+
+div.bookList-available{
+    margin-top: 10px;
+    padding: 20px;
+    min-height: 4440px;
+    min-width: 540px;
+}
+
+div.bookList-read{
+    margin-top: 10px;
+    border-radius: 10px;
+    min-width: 540px;
+    min-height: 4440px;
+    background: #dedede7d;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+div.book-block{
+    display: grid;
+    background-color: rgb(233, 233, 233);
+
+    margin-bottom: 30px;
+    width: 500px;
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+div.book-block .book-button{
+    margin-top: 15px;
+}
+
+div.book-block .book-button button{
+    width: 100%;
+}
+
+div.book-block .book-button button:hover{
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+
+div.book-block div.book-data{
+    display: flex;
+}
+
+div.book-block div.book-data h3{
+    font-size: 25px;
+    color: black;
+}
+
+div.book-block div.book-data p{
+    color: rgb(60, 60, 60);
+}
+
+div.book-block div.book-data span{
+    color: rgb(60, 60, 60);
+}
+
+div.book-block div.book-data img{
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
